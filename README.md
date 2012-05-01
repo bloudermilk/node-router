@@ -25,16 +25,16 @@ $ npm start
 
 There are three environment variables you can use to configure the router:
 
-`PORT`: The port to bind the proxy to (default: 8080)
-`REDIS_HOST`: The host of the redis server to connect to (default: 6379)
-`REDIS_PORT`: The port of the redis server to connect to (default: 127.0.0.1)
+* `PORT`: The port to bind the proxy to (default: 8080)
+* `REDIS_HOST`: The host of the redis server to connect to (default: 6379)
+* `REDIS_PORT`: The port of the redis server to connect to (default: 127.0.0.1)
 
-You could use them like so:
+For example:
 ```
 $ PORT=80 REDIS_PORT=6666 npm start
 ```
 
-Once your have the router running, seed the DB like so:
+Once your have the router running, seed the DB:
 
 ```bash
 $ redis-cli
