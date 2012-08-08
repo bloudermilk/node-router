@@ -4,6 +4,11 @@ This is a prototype HTTP router written in Node JS. Its functionality was
 inspired by Heroku-style host routing. It utilizes Redis to coordinate
 round-robin load balancing among multiple routers.
 
+**Note:** dotCloud recently released a full-featured production-ready proxy
+called [hipache] built on the same foundation as node-router.
+
+[hipache]: https://github.com/dotcloud/hipache
+
 ## Installation
 
 All node dependencies are available via npm:
